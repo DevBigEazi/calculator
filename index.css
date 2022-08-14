@@ -38,7 +38,10 @@
     font-size: 1em;
 }
 
-.buttonCon button {
+.buttonCon button { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
     background: hsl(249, 22%, 18%);
     color: #ffffff;

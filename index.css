@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.calculator {
+    background-color: #000000;
+    margin: 5em auto;
+    width: 25em;
+    overflow: hidden;
+    border-radius: 2em;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    -ms-border-radius: 2em;
+    -o-border-radius: 2em;
+}
+
+.displayCon {
+    text-align: right;
+    background: #020303;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    height: 6em;
+    font-size: 1.7em;
+    line-height: 6em;
+    padding: 0 1.5em;
+}
+
+.buttonCon {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 0.5em;
+    column-gap: 0.5em;
+    padding: 0.7em;
+    margin: auto 0.5em;
+    font-size: 1em;
+}
+
+.buttonCon button {
+    cursor: pointer;
+    background: hsl(249, 22%, 18%);
+    color: #ffffff;
+    padding: 2.5em;
+    height: 5.5em;
+    width: 5.5em;
+    margin: 0.5em;
+    border: unset;
+    outline: unset;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+.buttonCon button:hover {
+background: #3d3939;
+}
+
+.buttonCon button:active {
+    transform: translateY(0.5em);
+    -webkit-transform: translateY(0.5em);
+    -moz-transform: translateY(0.5em);
+    -ms-transform: translateY(0.5em);
+    -o-transform: translateY(0.5em);
+}
+
+.buttonCon .signButton {
+    background: #f49907;
+}
+
+.buttonCon .signButton:hover {
+    background: #ae8543;
+}
+
+.buttonCon .grey {
+    background-color: grey;
+}
+
+.buttonCon .grey:hover {
+    background: #7b7272;
+}
+
+@media screen and (max-width: 768px) {
+    .calculator {
+        width: 100vw;
+        height: 100vh;
+        margin: auto;
+    }
+}

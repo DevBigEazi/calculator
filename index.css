@@ -86,7 +86,7 @@ background: #3d3939;
     background: #7b7272;
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 468px) {
     .calculator {
         width: 100vw;
         height: 100vh;

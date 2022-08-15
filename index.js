@@ -32,7 +32,7 @@ for (let button of controlButtons) {
 
         if(!secondValue && btnValue === '=') return null 
 
-        if(btnValue === 'AC') {
+        if(btnValue === 'C') {
             firstValue = secondValue = symbol = ''
             return display.textContent = ''
 

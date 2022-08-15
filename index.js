@@ -1,7 +1,7 @@
 'use strict'
 
-const display = document.querySelector('.displayCon')
-const controlButtons = document.querySelector('.buttonCon').children
+const display = document.querySelector('.displayBox')
+const controlButtons = document.querySelector('.buttonBox').children
 const allSymbols = ['+', '-', '%', '=', 'x', 'C', '÷', '±', '⌫']
 
 let firstValue = ''

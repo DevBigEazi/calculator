@@ -52,7 +52,7 @@
 }
 
 .buttonCon button:hover {
-background: #3d3939;
+background: #423f3f;
 }
 
 .buttonCon button:active {
@@ -79,7 +79,7 @@ background: #3d3939;
     background: #7b7272;
 }
 
-@media screen and (max-width: 465px) {
+@media screen and (max-width: 468px) {
     .calculator {
         width: 100vw;
         height: 100vh;

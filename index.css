@@ -6,8 +6,7 @@
 .calculator {
     background-color: #000000;
     margin: 5em auto;
-    width: 26em;
-    overflow: hidden;
+    width: 25em;
 }
 
 .displayCon {

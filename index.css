@@ -6,13 +6,8 @@
 .calculator {
     background-color: #000000;
     margin: 5em auto;
-    width: 30em;
+    width: 26em;
     overflow: hidden;
-    border-radius: 2em;
-    -webkit-border-radius: 2em;
-    -moz-border-radius: 2em;
-    -ms-border-radius: 2em;
-    -o-border-radius: 2em;
 }
 
 .displayCon {
@@ -42,7 +37,6 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    font-size: 1em;
     background: #272438;
     color: #ffffff;
     padding: 2.5em;

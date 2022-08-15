@@ -9,7 +9,7 @@
     width: 25em;
 }
 
-.displayCon {
+.displayBox {
     text-align: right;
     background: #020303;
     color: #ffffff;
@@ -20,7 +20,7 @@
     padding: 0 1.5em;
 }
 
-.buttonCon {
+.buttonBox {
     display: grid;
     justify-content: center;
     align-items: center;
@@ -31,7 +31,7 @@
     margin: auto 0.5em;
 }
 
-.buttonCon button { 
+.buttonBox button { 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,11 +51,11 @@
     -o-border-radius: 100%;
 }
 
-.buttonCon button:hover {
+.buttonBox button:hover {
 background: #423f3f;
 }
 
-.buttonCon button:active {
+.buttonBox button:active {
     transform: translateY(0.5em);
     -webkit-transform: translateY(0.5em);
     -moz-transform: translateY(0.5em);
@@ -63,19 +63,19 @@ background: #423f3f;
     -o-transform: translateY(0.5em);
 }
 
-.buttonCon .signButton {
+.buttonBox .signButton {
     background: #f49907;
 }
 
-.buttonCon .signButton:hover {
+.buttonBox .signButton:hover {
     background: #ae8543;
 }
 
-.buttonCon .grey {
+.buttonBox .grey {
     background-color: grey;
 }
 
-.buttonCon .grey:hover {
+.buttonBox .grey:hover {
     background: #7b7272;
 }
 

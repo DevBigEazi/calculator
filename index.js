@@ -2,7 +2,7 @@
 
 const display = document.querySelector('.displayCon')
 const controlButtons = document.querySelector('.buttonCon').children
-const allSymbols = ['+', '-', '%', '=', 'x', 'C', '/', '±', '⌫']
+const allSymbols = ['+', '-', '%', '=', 'x', 'C', '÷', '±', '⌫']
 
 let firstValue = ''
 let secondValue = ''
@@ -15,7 +15,7 @@ const calcFn = () => {
 
     if(symbol === '+') result = firstValue + secondValue
     if(symbol === '-') result = firstValue - secondValue
-    if(symbol === '/') result = firstValue / secondValue
+    if(symbol === '÷') result = firstValue / secondValue
     if(symbol === 'x') result = firstValue * secondValue
     if(symbol === '%') result = firstValue % secondValue
     if(symbol === '±') result = firstValue +- secondValue
